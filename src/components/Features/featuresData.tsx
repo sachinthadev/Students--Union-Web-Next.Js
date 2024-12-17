@@ -1,10 +1,11 @@
 import { Feature } from "@/types/feature";
+import Image from 'next/image';
 
 const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img 
+      <Image  
         src="./images/news/newse1.png" 
         alt="Description of the photo" 
         width="300" 
@@ -19,7 +20,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img 
+      <Image  
         src="./images/news/newse2.png" 
         alt="Description of the photo" 
         width="300" 
@@ -33,7 +34,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img 
+      <Image  
         src="./images/news/newse3.png" 
         alt="Description of the photo" 
         width="300" 
@@ -47,7 +48,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img 
+      <Image  
         src="./images/news/newse4.png" 
         alt="Description of the photo" 
         width="300" 
@@ -61,7 +62,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img 
+      <Image  
         src="./images/news/newse5.png" 
         alt="Description of the photo" 
         width="300" 
@@ -75,7 +76,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img 
+      <Image  
         src="./images/news/newse6.png"   
         alt="Description of the photo" 
         width="300" 
