@@ -223,7 +223,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Students&apos; Union
+                Students Union
               </a>{" "}
               at{" "}
               <a
