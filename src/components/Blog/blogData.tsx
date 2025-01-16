@@ -4,7 +4,7 @@ const blogData: Blog[] = [
   {
     id: 1,
     title: "Modern UI Components",
-    image: "/images/gallery/gallery-01.jpg",
+    image: "/images/blog/post-01.jpg",
     description: "A collection of stunning UI components for modern web design.",
    
     publishDate: "2025",

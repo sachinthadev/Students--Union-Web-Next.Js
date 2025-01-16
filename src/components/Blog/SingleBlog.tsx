@@ -6,8 +6,8 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
   const { title, image,  description, publishDate } = blog;
   return (
     <>
-  <div className="group relative w-[200px] h-[300px] overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:shadow-lg dark:bg-dark">
-    <div className="relative block w-full h-[70%]">
+  <div className=" w-[100%] h-[500px] overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:shadow-lg dark:bg-dark">
+    <div className="relative block w-full h-[80%]">
       <Image
         src={image}
         alt={title}
