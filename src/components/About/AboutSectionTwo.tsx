@@ -27,7 +27,7 @@ const AboutSectionTwo = () => {
                   Ishara Maduwantha - President
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  John has over 20 years of experience in leadership roles. He oversees the strategic direction of the organization and ensures that all departments align with our vision.
+                Ishara provides visionary leadership and strategic direction for the organization. He ensures all departments are working cohesively toward achieving our mission and fosters partnerships to strengthen our impact.
                 </p>
               </div>
               
@@ -36,7 +36,7 @@ const AboutSectionTwo = () => {
                   Pubudu Dilshan - Vice President
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Jane leads our operations and ensures our projects run smoothly. She works closely with the president to execute key initiatives and drive organizational growth.
+                Pubudu supports the president in overseeing the organization's initiatives and operations. He drives key projects, manages cross-functional teams, and ensures effective execution of strategies.
                 </p>
               </div>
             </div>
@@ -51,7 +51,7 @@ const AboutSectionTwo = () => {
                   Isuru Sathpiyum - Secratory
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Mark manages our financial strategies and ensures the organization remains fiscally responsible. He has a background in corporate finance and accounting.
+                Isuru handles the organization's administrative responsibilities, ensuring efficient communication and record-keeping. He organizes meetings, manages correspondence, and maintains key documents.
                 </p>
               </div>
               
@@ -60,9 +60,12 @@ const AboutSectionTwo = () => {
                   Kavindu Lakshan - Treasurer
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Emily is responsible for the day-to-day operations of the organization. She works to optimize our internal processes and ensures high standards of performance.
+                Kavindu oversees the organization's finances, including budgeting, financial planning, and reporting. He ensures financial stability and compliance with regulations to support long-term growth.
                 </p>
               </div>
+
+                
+
             </div>
             {/* Officer 5 */}
            
@@ -71,7 +74,8 @@ const AboutSectionTwo = () => {
                   Anuka Sandeepa - Editor
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Michael leads our marketing initiatives and is responsible for shaping our public image. He brings over a decade of experience in branding and digital marketing.
+                Anuka is responsible for curating and overseeing all editorial content, 
+                ensuring accuracy, clarity, and alignment with the organization’s messaging. He maintains high-quality standards across publications.
                 </p>
               </div>
           

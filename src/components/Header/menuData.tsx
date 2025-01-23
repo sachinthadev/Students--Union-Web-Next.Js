@@ -1,5 +1,11 @@
+// import fs from "fs";
+// import path from "path";
+
 import { Menu } from "@/types/menu";
 
+
+
+// Menu structure
 const menuData: Menu[] = [
   {
     id: 1,
@@ -19,8 +25,6 @@ const menuData: Menu[] = [
     path: "/about",
     newTab: false,
   },
- 
-  
   {
     id: 33,
     title: "Gallery",
@@ -32,7 +36,6 @@ const menuData: Menu[] = [
     title: "Services",
     newTab: false,
     submenu: [
-     
       {
         id: 43,
         title: "Projects",
@@ -47,38 +50,19 @@ const menuData: Menu[] = [
       },
       {
         id: 45,
-        title: "Sociel Events",
+        title: "Social Events",
         path: "/blog-details",
         newTab: false,
       },
-     
     ],
   },
   {
-    id: 35,
+    id: 8,
     title: "Downloads",
     newTab: false,
     submenu: [
-     
-      {
-        id: 33,
-        title: "Projects1",
-        path: "",
-        newTab: false,
-      },
-      {
-        id: 32,
-        title: "Student 2",
-        path: "",
-        newTab: false,
-      },
-      {
-        id: 31,
-        title: "Sociel 3",
-        path: "",
-        newTab: false,
-      },
-     
+      { id: 31, title: "Union Constitution", path: "/downloads/union constitution.pdf", newTab: true },
+      { id: 32, title: "Students Handbook SLIATE", path: "/downloads/Students Handbook 2023 _FINAL.pdf", newTab: true },
     ],
   },
   {
@@ -88,4 +72,5 @@ const menuData: Menu[] = [
     newTab: false,
   },
 ];
+
 export default menuData;
