@@ -45,13 +45,13 @@ const menuData: Menu[] = [
       {
         id: 44,
         title: "Student Life",
-        path: "/blog-sidebar",
+        path: "",
         newTab: false,
       },
       {
         id: 45,
         title: "Social Events",
-        path: "/blog-details",
+        path: "",
         newTab: false,
       },
     ],
